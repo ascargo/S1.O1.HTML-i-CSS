@@ -1,0 +1,38 @@
+body {
+    max-width:1200px;
+    background-color: antiquewhite;
+    gap: 10px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10em;
+}
+
+.layout > div {
+    padding: 10px;
+    gap: 10px;
+    background-color: black;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: #2c4059;
+}
+.container-header > div {
+    padding: 10px;
+    background-color: #2c4059;
+}
+.elements-header > div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    background-color: #ea5455;
+}
+-->
